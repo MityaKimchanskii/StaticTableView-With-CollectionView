@@ -85,17 +85,17 @@ extension ViewController: UITableViewDataSource {
 }
 
 extension ViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        var str = ""
-        if section == 1 {
-            str = "Hello"
-        } else if section == 3 {
-            str = "Dima Senior IOS Developer"
-        } else {
-            str = "Dima IOS Engeneer"
-        }
-        return str
-    }
+//    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        var str = ""
+//        if section == 1 {
+//            str = "Hello"
+//        } else if section == 3 {
+//            str = "Dima Senior IOS Developer"
+//        } else {
+//            str = "Dima IOS Engeneer"
+//        }
+//        return str
+//    }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "header") as? Header
