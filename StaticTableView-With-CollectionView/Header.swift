@@ -13,8 +13,6 @@ class Header: UITableViewHeaderFooterView {
     let titleLabel = UILabel()
     let subtitleLabel = UILabel()
     
-    let identifier = "header"
-    
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
         style()
